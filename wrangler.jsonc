@@ -1,0 +1,13 @@
+{
+  "name": "maa-welfare-org",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "kv_namespaces": [
+    { "binding": "DONATIONS", "id": "20bb18b38c294c9bb59b131a7f5d2caa" }
+  ]
+}
